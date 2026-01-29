@@ -1,4 +1,32 @@
-/Advanced
-/check_vscode.py
-/TEST1.ipynb
-/test_run.py
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data files
+*.csv
+*.pkl
+*.parquet
+
+# Plotly exports
+*.html
+*.png
+*.jpg
